@@ -17,7 +17,7 @@
       console.info('FB jssdk loaded');
 
       FB.init({
-        appId: '302411106512755'
+        appId: '404063823048178'
       });
 
       user = new FacebookUser();
@@ -81,65 +81,21 @@
     <div class="row">
       <div class="span5">
 
-        <h2>Getting started guide</h2>
+         
+ 
+ 
 
-        <p>
-          This small lib provides a Backbone model that works with the facebook JavaScript SDK.
-        </p>
-        <p>
-          It can be used to connect a user via facebook, ask for permissions and retrieve profile information.
-        </p>
-        <p>
-          The events of the facebook SDK are converted to Backbone events so the model can easily be used with Backbone views.
-        </p>
+ 
 
-        <h3>Dependencies</h3>
+ 
 
-        <ul>
-          <li><a href="http://backbonejs.org">Backbone.js</a></li>
-          <li><a href="https://developers.facebook.com/docs/reference/javascript">FB JavaScript SDK</a></li>
-        </ul>
+ 
 
-<h3>Make sure you initialized the facebook SDK</h3>
-<pre class="prettyprint linenums">
-FB.init({
-  appId: 'YOUR-FACEBOOK-APP-ID'
-})
-</pre>
+ 
 
-<h3>Create a model</h3>
-<pre class="prettyprint linenums">
-user = new FacebookUser()
-</pre>
+ 
 
-<h3>Register to model events</h3>
-<pre class="prettyprint linenums">
-// callback example:
-// callback = function(model, response) {}
-user.on('facebook:connected',    callback)
-user.on('facebook:disconnected', callback)
-user.on('facebook:unauthorized', callback)
-</pre>
-
-<h3>Log the user in <small>(opens the facebook popup)</small></h3>
-<pre class="prettyprint linenums">
-user.login()
-</pre>
-
-<h3>Log the user out</h3>
-<pre class="prettyprint linenums">
-user.logout()
-</pre>
-
-<h3>Fetch the facebook profile</h3>
-<pre class="prettyprint linenums">
-user.fetch()
-</pre>
-
-<h3>Check for Login status <small>(e.g. after initialization)</small></h3>
-<pre class="prettyprint linenums">
-user.updateLoginStatus()
-</pre>
+ 
 
       </div>
       <div class="span6 offset1">
